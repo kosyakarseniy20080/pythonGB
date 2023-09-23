@@ -1,1 +1,10 @@
-fdghjhgfdghjkhgfhjkhgfhjkhgfhjkhgfdghjkhgfhjkhgfhjkljhgfhjkl;jhgfhjkljhgfhjkljhgfghjkljhgfhjkl;kjhgfhjkl;kjhghjkljhg
+randNum = 5
+
+for i in range(0,5):
+   num = int (input('Угадайте число от 0 до 10'))
+   print(i)
+   if num == randNum:
+      print('Ты победил')
+      break
+   if i == 5:
+      print("Проиграл")
