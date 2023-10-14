@@ -1,17 +1,23 @@
-import random 
-from time import sleep
+
+
+
+
+import random # Импортируем готовый код из библиотеки готовый код random для случайного числа
+from time import sleep # Из библиотеки time добавляем команду sleep
+# переменные, которые хранят данные о персонаже
 hp = 100 
 speed = 0
 dist = 400
-
-yetti = 1
+# переменные с порядковым номером врагов
+rock = 1
 tree = 2
-rock = 3
+yetti = 3
 
+#
 while True:
-   
-    chanceEnemy = random.randint(0,10)   
-    if chanceEnemy == rock:
+   print('')
+   chanceEnemy = random.randint(0,10)   
+   if chanceEnemy == rock:
         print('Вы столкнулись с камнем')
         hp -= 5
         print(f'У вас осталось {hp} жизней')
@@ -36,4 +42,102 @@ while True:
     if (hp <= 0):
         print('Вас сожрали')
         break
+    
     sleep(0.9)
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.} пишем "Перед вами камень" print
+2.} предлагаем "Влево, Вправо, перепрыгнуть, подкат" 
+3.} Игрок делает выбор int(input("1. Влево, 2. Вправо, 3. перепрыгнуть, 4. подкат"))
+
+4.} Программа выбирает случайное число от 1 до 4       choose.randint
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
